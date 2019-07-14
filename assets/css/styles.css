@@ -24,52 +24,52 @@ header {
 div#hero-image-container {
   display: flex;
   align-items: center;
-  
 }
-div#hero-image-container ul{
+div#hero-image-container ul {
   padding: 0;
-  margin-left: .5%;
+  margin-left: 0.5%;
 }
 
-ul .hero-first-name, ul .hero-last-name{
+ul .hero-first-name,
+ul .hero-last-name {
   list-style-type: none;
 }
-.hero-first-name, .hero-last-name{
+.hero-first-name,
+.hero-last-name {
   color: #fff;
-   
 }
 
-ul .hero-first-name{
+ul .hero-first-name {
   padding: 5px;
-  font-size: 1.0em; 
+  font-size: 1em;
 }
-ul .hero-last-name{
+ul .hero-last-name {
   font-weight: bold;
   padding: 4px;
   margin-top: 10px;
-  font-size: 1.1em; 
-
+  font-size: 1.1em;
 }
-#group{
+#group {
   display: flex;
 }
-#nav-bar ul{
+#nav-bar ul {
   display: inline-flex;
   justify-content: flex-end;
-  
 }
 
-#nav-bar a{
+#nav-bar a {
   padding: 0 10px;
 }
 
-#social-media{
+#social-media {
   display: inline-flex;
+  margin: 0 5%;
+  align-items: center;
 }
 
-img#twitter-icon{
-width:15%;
-fill: #fff;
+img#twitter-icon {
+  width: 15%;
+  color: #fff;
 }
 img#linkedin-icon {
   width: 20%;
@@ -86,16 +86,23 @@ img#linkedin-icon {
 }
 */
 
-.nav-buttons{
+.nav-buttons {
   color: #fff;
   font-size: 1.3em;
   font-weight: bold;
   list-style-type: none;
 }
-nav a:hover{
+nav a:hover {
   color: blue;
   cursor: pointer;
 }
+
+.twitter-icon:hover,
+.linkedin-icon:hover {
+  fill: blue;
+  cursor: pointer;
+}
+
 /*
 #header-section{
   display: flex;
@@ -176,14 +183,11 @@ li a {
   color: #bd0707;
 }
 */
-#container{
-  
-
-  height: 100vh;
+#container {
+  height: calc(100vh - 282px);
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 section#home-container {
   display: flex;
@@ -197,36 +201,36 @@ section#home-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height:15rem;
-  width:15rem;
+  height: 15rem;
+  width: 15rem;
   background-repeat: no-repeat;
   font-size: 1.5em;
-  
 }
-.home-items a{
+.home-items a {
   text-decoration: none;
   color: #fff;
+  font-weight: bold;
 }
-.home-items:hover{
+.home-items:hover {
   color: #fff;
   background-color: rgba(255, 255, 255, 0.923);
   cursor: pointer;
 }
 
 .circle-1 {
-  background-image: url("../../images/Swift_logo.png"); 
+  background-image: url("../../images/Swift_logo.png");
   background-size: auto 88%;
   background-color: rgba(255, 255, 255, 0.623);
 }
 
 .circle-2 {
-  background-image: url("../../images/vue_js_logo.png"); 
+  background-image: url("../../images/vue_js_logo.png");
   background-size: auto 100%;
   background-color: rgba(255, 255, 255, 0.623);
 }
 
 .circle-3 {
-  background-image: url("../../images/netlify_logo.png"); 
+  background-image: url("../../images/netlify_logo.png");
   background-size: auto 100%;
   background-color: rgba(255, 255, 255, 0.623);
 }
@@ -307,5 +311,4 @@ input[type="text"] {
 .btn:hover {
   background: #6079886b;
   cursor: pointer;
-
 }
