@@ -91,7 +91,7 @@ window.onload = function() {
 const createdElement = document.createElement("a");
 elements.swift.addEventListener("click", function() {
   //const node = document.createTextNode("works");
-  const created = elements.home.appendChild(createdElement);
+  // const created = elements.home.appendChild(createdElement);
   console.log(created);
 });
 
