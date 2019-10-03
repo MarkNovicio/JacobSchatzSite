@@ -4,7 +4,8 @@
 
 body {
   margin: 0;
-  background: url("../../images/desert_photo.jpg") no-repeat center center fixed;
+  background: url("../../images/updated_desert_photo_Copy.jpg") no-repeat center
+    center fixed;
   background-size: cover;
 }
 header {
